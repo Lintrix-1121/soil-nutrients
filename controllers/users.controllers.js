@@ -5,6 +5,8 @@ const Op = db.Sequelize.Op;
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const {where} = require("sequelize")
+require('dotenv').config();
+
 
 
 exports.Signup = async (req, res) => {
